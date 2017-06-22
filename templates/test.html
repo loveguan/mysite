@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>first</title>
+    <script src="/static/js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+<h1 style="background-color:antiquewhite;color:black;"> 用户输入!</h1>
+
+<hr/>
+<h1 style="background-color:antiquewhite;color:black;"> 展   示!</h1>
+<table border="1">
+    <thead>
+    <th>颜色</th>
+
+    </thead>
+    <tbody>
+        {% for line in data %}
+            <tr>
+                <td>{{ line.colors}}</td>
+
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>
