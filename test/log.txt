@@ -1,0 +1,152 @@
+DEBUG:root:11111
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:11111
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:11111
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:11111
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:11111
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:11111
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:11111
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:11111
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:11111
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:11111
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:liantong www.wheduc.cn ip is 218.56.8.87 ERROR!!!
+DEBUG:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+DEBUG:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+INFO:root:liantong www.wheduc.cn ip is 218.56.8.87 ERROR!!!
+INFO:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:----------------- 2017-07-07-17 complete! ------------------ 
+
+INFO:root:liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+INFO:root:liantong www.wheduc.cn ip is 218.56.8.87 ERROR!!!
+INFO:root:dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:----------------- 2017-07-07-17 complete! ------------------ 
+
+INFO:root:[ ERROR ] liantong login.wheduc.cn ip is 218.56.8.87 ERROR!!!
+INFO:root:[ ERROR ] liantong www.wheduc.cn ip is 218.56.8.87 ERROR!!!
+INFO:root:[ OK ] dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:[ OK ] dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:----------------- 2017-07-07-17 complete! ------------------ 
+
+INFO:root:[ OK ] liantong login.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:[ OK ] liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:[ OK ] dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:[ OK ] dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:----------------- 2017-07-07-17 complete! ------------------ 
+
+INFO:root:[ OK ] liantong login.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:[ OK ] liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:[ OK ] dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:[ OK ] dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:[ OK ] liantong login.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:[ OK ] liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:[ OK ] dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:[ OK ] dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:----------------- 2017-07-07-17 complete! ------------------ 
+
+INFO:root:[ OK ] liantong login.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:[ OK ] liantong www.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:[ OK ] dianxin login.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:[ OK ] dianxin www.wheduc.cn ip is 218.56.8.87 OK!!!
+INFO:root:----------------- 2017-07-07-17 complete! ------------------ 
+
+DEBUG:root:this is a message
+ERROR:root:111
+DEBUG:root:this is a message
+ERROR:root:111
+DEBUG:root:this is a message
+ERROR:root:111
+DEBUG:root:this is a message
+ERROR:root:111
+DEBUG:root:this is a message
+ERROR:root:111
+DEBUG:root:this is a message
+ERROR:root:111
+DEBUG:root:this is a message
+ERROR:root:addaddaaaddddd
+DEBUG:root:this is a message
+ERROR:root:addaddaaaddddd11fsdffsfssfsffe23323223233232
+DEBUG:root:this is a message
+ERROR:root:addaddaaaddddd11fsdffsfssfsffe23323223233232
+DEBUG:root:this is a message
+ERROR:root:addaddaaaddddd11fsdffsfssfsffe23323223233232
+DEBUG:root:this is a message
+ERROR:root:addaddaaaddddd11fsdffsfssfsffe23323223233232
