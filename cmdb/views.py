@@ -15,6 +15,8 @@ def index(request,**kargs):
         password = request.POST.get("password", None)
         # temp = {"user": username, "pwd": password}
         models.UserInfo.objects.create(user=username,pwd=password)
+        print('eeeeeeweweewew')
+        print(request)
     user_list=models.UserInfo.objects.all()
     return render(request, "index.html", {"data": user_list})
 def test(request):

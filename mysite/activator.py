@@ -21,6 +21,8 @@ def process(request, **kwargs):
         viewObj = getattr(appObj, 'views')
         funcObj = getattr(viewObj, function)
         print(funcObj)
+        print('eeeeeee')
+        print(request)
         # 执行view.py中的函数，并获取其返回值,gaile zhege difang
         result = funcObj(request)
 
