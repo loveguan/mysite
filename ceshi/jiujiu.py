@@ -27,6 +27,7 @@ num1 = 1
 while num1 <= 9:
     num2 = 1
     while num2 <= num1:
+        #  通过end把默认的换行符替换为其他需要的这里为*和=等
         print(num2, end=" * ")
         print(num1, end=" = ")
         print(num1 * num2, end=" ")
