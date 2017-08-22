@@ -39,3 +39,4 @@ while num1 <= 9:
     num1 += 1
     # 循环到最后换行
     print()
+
