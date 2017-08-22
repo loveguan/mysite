@@ -27,10 +27,14 @@ num1 = 1
 while num1 <= 9:
     num2 = 1
     while num2 <= num1:
-        #  通过end把默认的换行符替换为其他需要的这里为*和=等
-        print(num2, end=" * ")
-        print(num1, end=" = ")
-        print(num1 * num2, end=" ")
+
+        #  通过end把默认的换行符替换为其他需要的这里为*和=等，分步输出如下
+        '''print(num2, end=" * ")
+        print(num1, end=" = ")s
+        print(num1 * num2, end="\t")
+        '''
+        #  \t用来使输出对齐
+        print(str(num2) + '*' + str(num1) + "=" + str(num1 * num2), end='\t')
         num2 += 1
     num1 += 1
     # 循环到最后换行
