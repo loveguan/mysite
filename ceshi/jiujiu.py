@@ -20,6 +20,8 @@
 
 '''
 
+# 设置初始值
+
 num1 = 1
 
 while num1 <= 9:
@@ -30,4 +32,5 @@ while num1 <= 9:
         print(num1 * num2, end=" ")
         num2 += 1
     num1 += 1
+    # 循环到最后换行
     print()
