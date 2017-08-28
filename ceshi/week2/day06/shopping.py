@@ -30,7 +30,8 @@ buy_list = []
 while True:
     # enumerate方法转换
     for i in enumerate(procuct_list, start=1):
-        print(i)
+        # 注意这里字符串的连接方式
+        print(str(i[0]) + ':', i[1])
     # 输入选择
     choice = input('what do you want to buy: >>')
     #  判断输入的格式是否为数字
@@ -40,20 +41,23 @@ while True:
     if Totle_money - procuct_list[int(choice) - 1][1] > 0:
         Totle_money = Totle_money - procuct_list[int(choice) - 1][1]
         msg = """
-        you have buied %s,your money %i
+        已经购买了%s,还剩 %i元
         """ % (procuct_list[int(choice) - 1][0], Totle_money)
         buy_list.append(procuct_list[int(choice) - 1][0])
         print(msg)
     else:
-        print('lest money %i,you can not buy %s' % (Totle_money, procuct_list[int(choice) - 1][0]))
+        print('还有%i元,不够买 %s' % (Totle_money, procuct_list[int(choice) - 1][0]))
 
     while True:
-
+        # 判断只有输入y，Y，N,n时候跳出循环
         choice_continue = input('do you want to continue(y/n): >>')
-        if choice_continue in ['y', 'n','Y','N']:
+        if choice_continue in ['y', 'n', 'Y', 'N']:
             break
-    #  判断是否继续进行
+    # 判断是否继续进行
     if choice_continue == 'n':
         print('bye')
-        print(buy_list)
+        # print默认为换行，可以使用其他的替代
+        print('你已经购买了', end=':')
+        for i in buy_list:
+            print(i, end=',')
         break
