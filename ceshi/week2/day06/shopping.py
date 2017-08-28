@@ -21,7 +21,7 @@
 '''
 
 # 商品列表
-procuct_list = [('book', 30), ('bike', 300), ('cat', 3000), ('coffee', 35), ]
+procuct_list = [['book', 30], ['bike', 300], ['cat', 3000], ['coffee', 35], ]
 # 初始资金
 Totle_money = 5000
 # 购买列表
@@ -44,16 +44,15 @@ while True:
         """ % (procuct_list[int(choice) - 1][0], Totle_money)
         buy_list.append(procuct_list[int(choice) - 1][0])
         print(msg)
-
-
     else:
         print('lest money %i,you can not buy %s' % (Totle_money, procuct_list[int(choice) - 1][0]))
-        # choice_2 = input('do you want to continue(y/n): >>')
-        # if choice_2 == 'n':
-        #     print('bye')
-        #     break
 
-    choice_continue = input('do you want to continue(y/n): >>')
+    while True:
+
+        choice_continue = input('do you want to continue(y/n): >>')
+        if choice_continue in ['y', 'n','Y','N']:
+            break
+    #  判断是否继续进行
     if choice_continue == 'n':
         print('bye')
         print(buy_list)
