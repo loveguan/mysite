@@ -23,12 +23,14 @@
 # 商品列表
 procuct_list = [['book', 30], ['bike', 300], ['cat', 3000], ['coffee', 35], ]
 # 初始资金
-Totle_money = 5000
+saving= input('input your money: ')
+if saving.isdigit():
+    Totle_money=int(saving)
 # 购买列表
 buy_list = []
 
 while True:
-    # enumerate方法转换
+    # enumerate方法，在前边加上序列号
     for i in enumerate(procuct_list, start=1):
         # 注意这里字符串的连接方式
         print(str(i[0]) + ':', i[1])
@@ -54,10 +56,12 @@ while True:
         if choice_continue in ['y', 'n', 'Y', 'N']:
             break
     # 判断是否继续进行
-    if choice_continue == 'n':
-        print('bye')
+    if choice_continue == 'n' or choice_continue == 'N':
+        print('购物完成！！！')
         # print默认为换行，可以使用其他的替代
         print('你已经购买了', end=':')
         for i in buy_list:
             print(i, end=',')
+
+        print('\nleaving monney %d' %Totle_money)
         break
