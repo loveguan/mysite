@@ -31,9 +31,9 @@ buy_list = []
 
 while True:
     # enumerate方法，在前边加上序列号
-    for i in enumerate(procuct_list, start=1):
+    for i,v in enumerate(procuct_list, start=1):
         # 注意这里字符串的连接方式
-        print(str(i[0]) + ':', i[1])
+        print(i ,'>>',v)
     # 输入选择
     choice = input('what do you want to buy: >>')
     #  判断输入的格式是否为数字
