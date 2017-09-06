@@ -35,10 +35,10 @@
 # dic={'name':'alex'}
 # 方法二：
 # dic1={}
-#可以是元祖的形式
+#可以是元祖的形式赋值
 # dic2=dict((('name','alex'),))
 # print(dic2)
-# 也可以是列表的形式
+# 也可以是列表的形式赋值
 # dic3=dict([['name','alex'],])
 # print(dic3)
 # 值修改赋予的方式
@@ -104,13 +104,14 @@
 
 #5 其他操作以及涉及到的方法
 
-# fromkeys基本不用，有问题的
+# fromkeys基本不用，有问题的，特别是在键值对，值为列表或者字典的时候
 # dic6=dict.fromkeys(['host1','host2','host3'],'test')
+# 值为字符串的时候没问题
 # print(dic6)#{'host3': 'test', 'host1': 'test', 'host2': 'test'}
 #
 # dic6['host2']='abc'
 # print(dic6)
-
+# 如果值为可变的时候，会出现问题的
 # dic6=dict.fromkeys(['host1','host2','host3'],['test1','tets2'])
 # print(dic6)#{'host2': ['test1', 'tets2'], 'host3': ['test1', 'tets2'], 'host1': ['test1', 'tets2']}
 #
@@ -142,7 +143,7 @@ dic={5:'555',2:'666',4:'444'}
 # dic.has_keys(5)
 # print(5 in dic)
 # 字典的排序
-# print(sorted(dic.items()))
+# print(sorted(dic.items()))  # 可以指定排序的列
 # dic5={'name': 'alex', 'age': 18}
 
 # 打印键值
@@ -151,7 +152,7 @@ dic={5:'555',2:'666',4:'444'}
 #  i 取出来的是键
 #     print(i,dic5[i])+
 # 法二
-# for i,v in dic5.items():
+# for i,v in dic5.items():  #item方法对性能有影响
 #     print(i,v)
 
 
@@ -166,7 +167,7 @@ dic={5:'555',2:'666',4:'444'}
 # 2 [] ,[:] 通过索引获取字符串中字符,这里和列表的切片操作是相同的,具体内容见列表
 # print('helloworld'[2:])
 
-#关键字 in
+#关键字 in  是否在列表里边
 # print(123 in [23,45,123])
 # print('e2l' in 'hello')
 
@@ -174,14 +175,14 @@ dic={5:'555',2:'666',4:'444'}
 # print('alex is a good teacher')
 # print('%s is a good teacher'%'alex')
 
-#5
+#5 字符串的拼接  非常重要
 # a='123'
 # b='abc'
 # d='44'
 # # # c=a+b
 # # # print(c)
 # #
-# c= ''.join([a,b,d])
+# c= ''.join([a,b,d])  #  前边''设个字符串
 # print(c)
 
 
@@ -192,18 +193,18 @@ dic={5:'555',2:'666',4:'444'}
 #
 # print(st.count('l'))       #  统计元素个数
 # print(st.capitalize())     #  首字母大写
-# print(st.center(50,'#'))   #  居中
+# print(st.center(50,'#'))   #  居中，补齐50字符
 # print(st.endswith('tty3')) #  判断是否以某个内容结尾
 # print(st.startswith('he')) #  判断是否以某个内容开头
-# print(st.expandtabs(tabsize=20))
+# print(st.expandtabs(tabsize=20)) # 设置tab空格的数量，长度
 # print(st.find('t'))        #  查找到第一个元素，并将索引值返回
 # print(st.format(name='alex',age=37))  # 格式化输出的另一种方式   待定：?:{}
 # print(st.format_map({'name':'alex','age':22}))
-# print(st.index('t'))
+# print(st.index('t'))  # 查询到输出，不存在报错
 # print('asd'.isalnum())
 # print('12632178'.isdecimal())
 # print('1269999.uuuu'.isnumeric())
-# print('abc'.isidentifier())
+# print('abc'.isidentifier())  # 是否一个非法的字符（变量）
 # print('Abc'.islower())
 # print('ABC'.isupper())
 # print('  e'.isspace())
@@ -213,24 +214,24 @@ dic={5:'555',2:'666',4:'444'}
 # print('My tLtle'.swapcase())
 # print('My tLtle'.ljust(50,'*'))
 # print('My tLtle'.rjust(50,'*'))
-# print('\tMy tLtle\n'.strip())
+# print('\tMy tLtle\n'.strip()) # 去掉左右的空格和换行符
 # print('\tMy tLtle\n'.lstrip())
 # print('\tMy tLtle\n'.rstrip())
 # print('ok')
 # print('My title title'.replace('itle','lesson',1))
-# print('My title title'.rfind('t'))
+# print('My title title'.rfind('t'))  # 取到的是真实的索引值
 # print('My title title'.split('i',1))
 # print('My title title'.title())
 
 
 #摘一些重要的字符串方法
-#1 print(st.count('l'))
+#1 print(st.count('l'))  # 字符串中字母出现的次数
 # print(st.center(50,'#'))   #  居中
 # print(st.startswith('he')) #  判断是否以某个内容开头
-# print(st.find('t'))
+# print(st.find('t')) #  查找到第一个元素，并将索引值返回
 # print(st.format(name='alex',age=37))  # 格式化输出的另一种方式   待定：?:{}
-# print('My tLtle'.lower())
-# print('My tLtle'.upper())
-# print('\tMy tLtle\n'.strip())
-# print('My title title'.replace('itle','lesson',1))
-# print('My title title'.split('i',1))
+# print('My tLtle'.lower())  # 变小写
+# print('My tLtle'.upper()) # 变大写
+# print('\tMy tLtle\n'.strip()) # 去除字符串的空格和特殊字符
+# print('My title title'.replace('itle','lesson',1))  # 替换
+# print('My title title'.split('i',1)) # 分割
