@@ -33,9 +33,9 @@ caidan = {
 	},
 
 }
-# 设置初始的列表
+# 设置初始的列表，开始就是整个列表
 current_layer = caidan
-# 设置一个列表，每循环一次，加入一个
+# 设置一个列表，每循环选择一次，如果正确后，加入一个
 parent_layer = []
 while True:
 
@@ -45,13 +45,16 @@ while True:
 	if len(choice) == 0: continue
 	if choice in current_layer:
 		if type(current_layer) == list:
-			print('list')
+			print('到底了，请返回！！！')
 		else:
 			if current_layer[choice]:
 				parent_layer.append(current_layer)
+				#  当前循环层次换为选择后的层
 				current_layer = current_layer[choice]
 	elif choice == 'b':
 		if parent_layer:
 			current_layer = parent_layer.pop()
+	elif choice == 'e':
+		break
 	else:
 		print('无此项！！！')
