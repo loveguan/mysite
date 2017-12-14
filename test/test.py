@@ -19,6 +19,7 @@
 #         print(j)
 
 
+'''
 import logging
 import os
 import time
@@ -37,10 +38,35 @@ logging.error('addaddaaaddddd11fsdffsfssfsffe23323223233232')
 # logging.debug('this is a message')
 print(os.path.getsize(error_log_path))
 os.remove()
+'''
+
+'''
+count = 0
+
+while True:
+	it = input('Entre quit: ')
+	if it == 'quit':
+		break
+	count = count + 1
+	if count % 3 > 0:
+		continue
+	print('please input quit!')
+
+print('success')
+
+'''
 
 
+class MyClass(object):
+	def __init__(self, name='unser', color='black'):
+		print('contructor is called with params: %s ,%s' % (name, color))
+		self.__name = name
+		self.__color = color
+
+	def __del__(self):
+		print('Destructor is called for %s!' % self.__name)
 
 
-
-
-
+inst = MyClass('Joojo', 'White')
+print(inst.__name) #  类之外的代码无法访问私有成员
+del inst

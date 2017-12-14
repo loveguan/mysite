@@ -1,0 +1,5 @@
+2017-12-13 21:27:14,572 - root - DEBUG - logger debug message
+2017-12-13 21:27:14,572 - root - INFO - logger info message
+2017-12-13 21:27:14,573 - root - WARNING - logger warning message
+2017-12-13 21:27:14,573 - root - ERROR - logger error message
+2017-12-13 21:27:14,573 - root - CRITICAL - logger critical message

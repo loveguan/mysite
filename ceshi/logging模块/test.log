@@ -1,0 +1,94 @@
+Fri,08 Dec 2017 08:17:03 test.py[line:31] DEBUG dubug message
+Fri,08 Dec 2017 08:17:03 test.py[line:32] INFO info message
+Fri,08 Dec 2017 08:17:03 test.py[line:33] WARNING hello error
+Fri,08 Dec 2017 08:17:03 test.py[line:34] ERROR error message
+Fri,08 Dec 2017 08:17:03 test.py[line:35] CRITICAL critical message
+Wed,13 Dec 2017 21:02:35 test.py[line:31] DEBUG dubug message
+Wed,13 Dec 2017 21:02:35 test.py[line:32] INFO info message
+Wed,13 Dec 2017 21:02:35 test.py[line:33] WARNING hello error
+Wed,13 Dec 2017 21:02:35 test.py[line:34] ERROR error message
+Wed,13 Dec 2017 21:02:35 test.py[line:35] CRITICAL critical message
+Wed,13 Dec 2017 21:02:40 test.py[line:31] DEBUG dubug message
+Wed,13 Dec 2017 21:02:40 test.py[line:32] INFO info message
+Wed,13 Dec 2017 21:02:40 test.py[line:33] WARNING hello error
+Wed,13 Dec 2017 21:02:40 test.py[line:34] ERROR error message
+Wed,13 Dec 2017 21:02:40 test.py[line:35] CRITICAL critical message
+Wed,13 Dec 2017 21:02:51 test.py[line:31] DEBUG dubug message
+Wed,13 Dec 2017 21:02:51 test.py[line:32] INFO info message
+Wed,13 Dec 2017 21:02:51 test.py[line:33] WARNING hello error
+Wed,13 Dec 2017 21:02:51 test.py[line:34] ERROR error message
+Wed,13 Dec 2017 21:02:51 test.py[line:35] CRITICAL critical message
+2017-12-13 21:40:51,986 - mylogger - INFO - logger1 info message
+2017-12-13 21:40:51,986 - mylogger - INFO - logger1 info message
+2017-12-13 21:40:51,987 - mylogger - WARNING - logger1 warning message
+2017-12-13 21:40:51,987 - mylogger - WARNING - logger1 warning message
+2017-12-13 21:40:51,987 - mylogger - ERROR - logger1 error message
+2017-12-13 21:40:51,987 - mylogger - ERROR - logger1 error message
+2017-12-13 21:40:51,987 - mylogger - CRITICAL - logger1 critical message
+2017-12-13 21:40:51,987 - mylogger - CRITICAL - logger1 critical message
+2017-12-13 21:40:51,988 - mylogger - INFO - logger2 info message
+2017-12-13 21:40:51,988 - mylogger - INFO - logger2 info message
+2017-12-13 21:40:51,988 - mylogger - WARNING - logger2 warning message
+2017-12-13 21:40:51,988 - mylogger - WARNING - logger2 warning message
+2017-12-13 21:40:51,988 - mylogger - ERROR - logger2 error message
+2017-12-13 21:40:51,988 - mylogger - ERROR - logger2 error message
+2017-12-13 21:40:51,989 - mylogger - CRITICAL - logger2 critical message
+2017-12-13 21:40:51,989 - mylogger - CRITICAL - logger2 critical message
+2017-12-13 21:41:25,622 - mylogger - INFO - logger1 info message
+2017-12-13 21:41:25,622 - mylogger - INFO - logger1 info message
+2017-12-13 21:41:25,623 - mylogger - WARNING - logger1 warning message
+2017-12-13 21:41:25,623 - mylogger - WARNING - logger1 warning message
+2017-12-13 21:41:25,623 - mylogger - ERROR - logger1 error message
+2017-12-13 21:41:25,623 - mylogger - ERROR - logger1 error message
+2017-12-13 21:41:25,623 - mylogger - CRITICAL - logger1 critical message
+2017-12-13 21:41:25,623 - mylogger - CRITICAL - logger1 critical message
+2017-12-13 21:41:25,624 - mylogger - INFO - logger2 info message
+2017-12-13 21:41:25,624 - mylogger - INFO - logger2 info message
+2017-12-13 21:41:25,624 - mylogger - WARNING - logger2 warning message
+2017-12-13 21:41:25,624 - mylogger - WARNING - logger2 warning message
+2017-12-13 21:41:25,624 - mylogger - ERROR - logger2 error message
+2017-12-13 21:41:25,624 - mylogger - ERROR - logger2 error message
+2017-12-13 21:41:25,625 - mylogger - CRITICAL - logger2 critical message
+2017-12-13 21:41:25,625 - mylogger - CRITICAL - logger2 critical message
+2017-12-13 21:41:25,627 - mylogger - INFO - logger1 info message
+2017-12-13 21:41:25,627 - mylogger - INFO - logger1 info message
+2017-12-13 21:41:25,628 - mylogger - WARNING - logger1 warning message
+2017-12-13 21:41:25,628 - mylogger - WARNING - logger1 warning message
+2017-12-13 21:41:25,629 - mylogger - ERROR - logger1 error message
+2017-12-13 21:41:25,629 - mylogger - ERROR - logger1 error message
+2017-12-13 21:41:25,630 - mylogger - CRITICAL - logger1 critical message
+2017-12-13 21:41:25,630 - mylogger - CRITICAL - logger1 critical message
+2017-12-13 21:41:25,631 - mylogger - INFO - logger2 info message
+2017-12-13 21:41:25,631 - mylogger - INFO - logger2 info message
+2017-12-13 21:41:25,631 - mylogger - WARNING - logger2 warning message
+2017-12-13 21:41:25,631 - mylogger - WARNING - logger2 warning message
+2017-12-13 21:41:25,632 - mylogger - ERROR - logger2 error message
+2017-12-13 21:41:25,632 - mylogger - ERROR - logger2 error message
+2017-12-13 21:41:25,633 - mylogger - CRITICAL - logger2 critical message
+2017-12-13 21:41:25,633 - mylogger - CRITICAL - logger2 critical message
+2017-12-13 21:41:25,633 - mylogger.child1 - WARNING - logger3 warning message
+2017-12-13 21:41:25,633 - mylogger.child1 - WARNING - logger3 warning message
+2017-12-13 21:41:25,634 - mylogger.child1 - ERROR - logger3 error message
+2017-12-13 21:41:25,634 - mylogger.child1 - ERROR - logger3 error message
+2017-12-13 21:41:25,635 - mylogger.child1 - CRITICAL - logger3 critical message
+2017-12-13 21:41:25,635 - mylogger.child1 - CRITICAL - logger3 critical message
+2017-12-13 21:41:25,635 - mylogger.child1.child2 - DEBUG - logger4 debug message
+2017-12-13 21:41:25,635 - mylogger.child1.child2 - DEBUG - logger4 debug message
+2017-12-13 21:41:25,636 - mylogger.child1.child2 - INFO - logger4 info message
+2017-12-13 21:41:25,636 - mylogger.child1.child2 - INFO - logger4 info message
+2017-12-13 21:41:25,637 - mylogger.child1.child2 - WARNING - logger4 warning message
+2017-12-13 21:41:25,637 - mylogger.child1.child2 - WARNING - logger4 warning message
+2017-12-13 21:41:25,638 - mylogger.child1.child2 - ERROR - logger4 error message
+2017-12-13 21:41:25,638 - mylogger.child1.child2 - ERROR - logger4 error message
+2017-12-13 21:41:25,639 - mylogger.child1.child2 - CRITICAL - logger4 critical message
+2017-12-13 21:41:25,639 - mylogger.child1.child2 - CRITICAL - logger4 critical message
+2017-12-13 21:41:25,640 - mylogger.child1.child2.child3 - DEBUG - logger5 debug message
+2017-12-13 21:41:25,640 - mylogger.child1.child2.child3 - DEBUG - logger5 debug message
+2017-12-13 21:41:25,641 - mylogger.child1.child2.child3 - INFO - logger5 info message
+2017-12-13 21:41:25,641 - mylogger.child1.child2.child3 - INFO - logger5 info message
+2017-12-13 21:41:25,642 - mylogger.child1.child2.child3 - WARNING - logger5 warning message
+2017-12-13 21:41:25,642 - mylogger.child1.child2.child3 - WARNING - logger5 warning message
+2017-12-13 21:41:25,643 - mylogger.child1.child2.child3 - ERROR - logger5 error message
+2017-12-13 21:41:25,643 - mylogger.child1.child2.child3 - ERROR - logger5 error message
+2017-12-13 21:41:25,644 - mylogger.child1.child2.child3 - CRITICAL - logger5 critical message
+2017-12-13 21:41:25,644 - mylogger.child1.child2.child3 - CRITICAL - logger5 critical message
