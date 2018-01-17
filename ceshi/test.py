@@ -38,7 +38,75 @@ print('you can live for '+ str(death_age-int(age))+' years')
 # else:
 #     print('wrongs')
 
-print(1,end=' ')
-print(2)
 
+"""
+class Foo:
+	def __init__(self):
+		self.name='a'
+	def bar(self):
+		# self是对象
+		print('bar')
+	@staticmethod
+	def sta():
+		print('123')
+	@staticmethod
+	def stat(a1,a2):
+		print(a1,a2)
+	@classmethod
+	def classmd(cls):
+		# cls 是类名
+		print(cls)
+		print('clasmd')
+Foo.sta()
+Foo.stat(1,2)
+Foo().sta()
+Foo.classmd()
+
+"""
+"""
+class Foo:
+	def __init__(self):
+		self.name='a'
+		self.name_list=['alex']
+	def bar(self):
+		print('bar')
+	@property
+	def perr(self):
+		return 123
+	@perr.setter
+	def perr(self,val):
+		print(val)
+	@perr.deleter
+	def perr(self):
+		print('666')
+obj = Foo()
+print(obj.perr) # 获取值
+obj.perr=45  # 赋值
+del obj.perr  # 删除值
+
+"""
+
+class Pergination:
+	def __init__(self,current_page):
+		try:
+			p=int(current_page)
+		except:
+			p=1
+
+		self.page=p
+	@property
+	def start(self):
+		val=(self.page-1)*10
+		return val
+	@property
+	def end(self):
+		val=self.page*10
+		return val
+li=[]
+for i in range(1000):
+	li.append(i)
+while True:
+	p=input('输入要查看的页码：').strip()
+	obj = Pergination(p)
+	print(li[obj.start:obj.end])
 
