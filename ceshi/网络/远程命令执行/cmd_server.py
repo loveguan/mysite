@@ -46,14 +46,14 @@ while 1:
 
 		# 编码为utf8格式
 		str1 = str(rec, 'utf8')
-		# 执行命令行的方式
+		# 执行命令行的方式，返回值由于在window执行，window编码格式为gbk
 		com = subprocess.Popen(str1, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 		# 得到stdout和stderror的元组
 		ret1 = com.communicate()
 		# 获取数据,判断输出错误是否存在，存在的话将错误信息赋值给data
 		if ret1[1]:
 			err_str = ret1[1]
-			# 赋值给error 给 data
+			# 赋值给error 给 data，解码为gbk
 			data = err_str
 		# data = bytes(err_str, 'gbk')
 		else:
