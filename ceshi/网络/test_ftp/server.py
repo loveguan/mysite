@@ -208,7 +208,6 @@ while True:
 			else:
 				print('error')
 
-
 		else:
 
 			err_flag = 0

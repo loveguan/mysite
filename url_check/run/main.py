@@ -54,5 +54,9 @@ def init():
 # 入口函数
 def init_check():
 	init()
-	# mail loger_type define log path
+	# mail loger_type define log path 根据标志位判断发送什么样的邮件
 	mail.mail(Flag_err, loger_type)
+	if Flag_err:
+		print("\033[43;34m error,please read log!!!\033[0m")
+	else:
+		print("\033[42;33m It's ok!!!\033[0m")

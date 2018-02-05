@@ -1,2 +1,3 @@
 2018-01-07 23:06:30,612 - transaction - ERROR - account:1234   action:repay    amount:12.0   interest:0.0
 2018-01-08 08:37:01,895 - transaction - ERROR - account:1234   action:withdraw    amount:12.0   interest:0.6000000000000001
+2018-01-17 16:01:21,775 - transaction - ERROR - account:1234   action:repay    amount:12.0   interest:0.0

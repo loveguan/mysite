@@ -101,7 +101,7 @@ save_path_name = 'download'
 UP_DOWN_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), save_path_name)
 
 while True:
-	log_msg='实现ftp上传下载!!!支持命令：dir，cd，cd..，get name,put name'
+	log_msg = '实现ftp上传下载!!!支持命令：dir，cd，cd..，get name,put name'
 	print(log_msg)
 	inp = input(">>")
 	if len(inp.strip()) == 0:

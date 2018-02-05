@@ -40,7 +40,7 @@ def make_transaction(log_obj, account_data, tran_type, amount, **others):
 		account_data['balance'] = new_balance
 
 		accounts.dump_account(account_data)
-		log_obj.error("account:%s   action:%s    amount:%s   interest:%s" %
+		log_obj.("account:%s   action:%s    amount:%s   interest:%s" %
 					  (account_data['id'], tran_type, amount, interest))
 		return account_data
 	else:

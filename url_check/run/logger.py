@@ -22,7 +22,9 @@
 
 import logging
 from conf import setting
+import os
 
+sepr=os.sep
 
 def logger(log_type):
 	# create logger
@@ -33,7 +35,7 @@ def logger(log_type):
 	ch = logging.StreamHandler()
 	ch.setLevel(setting.LOG_LEVEL)
 	# create file save
-	log_file = "%s/log/%s" % (setting.BASE_DIR, setting.LOG_TYPES[log_type])
+	log_file = "%s%slog%s%s" % (setting.BASE_DIR,sepr,sepr, setting.LOG_TYPES[log_type])
 	fh = logging.FileHandler(log_file)
 	fh.setLevel(setting.LOG_LEVEL)
 	# create formatter

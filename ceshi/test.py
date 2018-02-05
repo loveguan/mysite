@@ -110,3 +110,5 @@ while True:
 	obj = Pergination(p)
 	print(li[obj.start:obj.end])
 
+
+

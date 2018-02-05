@@ -24,17 +24,20 @@ import smtplib
 from email.mime.text import MIMEText
 from email.header import Header
 from conf import setting
+import os
 
 sender = setting.mail_config['sender']
 username = setting.mail_config['username']
 password = setting.mail_config['password']
 reciver = setting.reciver
 subject = '链路测试消息'
+# 分割符
+sepr=os.sep
 
 def mail(Flag_err, logger_type):
 	message = '链路测试正常'
 	if Flag_err:
-		log_path = "%s\log\%s" % (setting.BASE_DIR, setting.LOG_TYPES[logger_type])
+		log_path = "%s%slog%s%s" % (setting.BASE_DIR,sepr, sepr,setting.LOG_TYPES[logger_type])
 		message="Error!!!!!!!!!!\n\r"
 		with open(log_path) as f:
 			for line in f:
